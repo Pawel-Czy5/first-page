@@ -1,0 +1,124 @@
+.tło{
+    background-color: black;
+    border: 3px red solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a{
+    color: blue;
+    padding: 38px;
+}
+.b{
+    color:white; 
+    font-size: 24px;
+    padding: 38px;
+    background-color: blue;
+}
+.c{
+    font-size: 24px;
+    padding: 38px;
+}
+.c1{
+    color:red;
+}
+.d{
+    color:lightblue;
+    font-size: 24px;
+    padding: 38px;
+    transition: color 0.7s ease-out;
+}
+img{
+width: 400px;
+max-height: 300px;
+padding: 24px;
+}
+.d:hover{
+    color: blue;
+    text-decoration: underline;
+}
+img:hover{
+    width: 500px;
+    height: 300px;
+    padding: 38px;
+}
+.footer{
+    text-align:right;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+}
+details{
+    color: aqua;
+    font-size: 24px;
+    transition: color 0.5s ease-out;
+    padding: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+details:hover{
+    color: blue;
+}
+summary{
+    color: white;
+    transition: text 1s ease-out;
+}
+summary:hover{
+   text-decoration: underline; 
+}
+.b1{
+    background-color: darkcyan;
+    color: white;
+    font-size: 18px;
+}
+nav{
+        display: none;
+    }
+@media (max-width: 600px){.a, .b, .b1, .c, .c1, .d {
+font-size: 12px;
+padding: 10px;
+text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.footer{
+    font-size: 14px;
+    text-align: center;
+}
+details{
+    padding: 10px;
+}
+nav{
+    display: block;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    border: red 3px solid;
+    scroll-behavior: smooth;
+}
+nav:hover{
+    color: blue;
+}
+    }
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+  background: black;
+  border: 1px solid yellow;
+}
+.container img {
+  width: 300px;
+  max-height: 200px;
+  object-fit: cover;
+  border: 1px solid red;
+}
+.container details {
+  flex: 1;
+  max-width: 600px;
+  padding-left: 20px;
+  color: white;
+  border: 1px solid lime;
+}
